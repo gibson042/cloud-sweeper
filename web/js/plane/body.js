@@ -4,10 +4,10 @@
 	var part;
 
 	part = {
-		src: "images/plane/body.svg",
+		src: "images/plane/shyguy.png",
 		pieceSize: 600,
 		width: 600,
-		height: 425,
+		height: 600,
 		originX: 350,
 		originY: 200,
 		offsetX: 0,

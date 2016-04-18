@@ -161,7 +161,7 @@ var Plane = (function Plane(){
 				);
 				ctx.rotate(radians);
 				ctx.translate(0-parts.prop.scaled[0].originX,0-parts.prop.scaled[0].originY);
-				ctx.drawImage(prop.cnv,0,0);
+				//xxx dg ctx.drawImage(prop.cnv,0,0);
 				ctx.restore();
 
 				// for rotation around the origin
@@ -205,7 +205,7 @@ var Plane = (function Plane(){
 				});
 			}
 			else {
-				ctx.drawImage(prop.cnv,prop.offsetX,prop.offsetY);
+				//xxx dg ctx.drawImage(prop.cnv,prop.offsetX,prop.offsetY);
 				scaledHitAreas.forEach(function eacher(hitArea,idx){
 					scaledAndRotatedHitAreas[idx] = scaledAndRotatedHitAreas[idx] || {};
 
